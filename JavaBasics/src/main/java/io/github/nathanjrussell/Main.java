@@ -30,7 +30,9 @@ public class Main {
 
         // Using array to demonstrate for-each loop
         String[] weekDays = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
+        //enhanced for loop
         for (String day : weekDays) {
+            //day becomes the actual value of the weekday
             System.out.println("Day: " + day);
         }
 
